@@ -1,0 +1,325 @@
+body {
+  /* background-color: ; */
+}
+
+.headContainer {
+  border: solid rgb(29, 88, 42);
+  background-color: rgb(29, 88, 42);
+  height: 20px;
+  width: 100%;
+}
+
+.headText {
+  color: white;
+  font-size: .6em;
+  text-align: center;
+  margin-top: 5px;
+  margin-bottom: .5px;
+}
+
+.navContainer {
+  border-width: .2px;
+  display: flex;
+  padding: .5%;
+  justify-content: space-between;
+
+}
+
+.navItems {
+  width: 40%;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  font-size: .6em;
+  display: flex;
+  justify-content: space-evenly;
+  margin-right: 5px;
+
+
+}
+
+.tokyoLogo {
+  height: 20px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  margin-left: 30px;
+}
+
+.pic1Container {
+
+  height: 1200px;
+  background-size: 100%;
+  /* border: solid white; */
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.tokyoBike {
+  position: absolute;
+  z-index: -1;
+
+}
+
+.textContainer {
+  width: 100%;
+  height: 250px;
+  background-color: rgba(255, 255, 255, .55);
+  margin-bottom: 120px;
+
+}
+
+.littleTokyo {
+  margin-left: 20px;
+  font-size: 1em;
+  padding-top: 60px;
+
+}
+
+.shortText {
+  margin-left: 20px;
+  font-size: .8em;
+
+}
+
+.actBtn {
+  margin-left: 20px;
+  height: 40px;
+  width: 120px;
+}
+
+.bikeContainer {
+  border: #ecf0ec;
+  ;
+  background-color: #ecf0ec;
+  display: flex;
+  justify-content: space-evenly;
+  padding: 2em;
+  flex-wrap: wrap;
+}
+
+.titleTwo {
+  /* display: flex;
+    justify-content: center; */
+  font-size: .6em;
+  margin-top: 40px;
+  margin-left: 100px;
+  position: absolute;
+  margin-right: 10%;
+
+}
+
+/* .bikeinfo {
+    border: solid green;
+    height: 12vh;
+    margin: 12px;
+    margin-top: 35%; */
+/* }
+  .mainBike {
+    border: solid green;
+    width: 40%; */
+}
+
+.row {
+  border: solid black;
+  width: 100%;
+  margin: .5em;
+  display: flex;
+
+}
+
+.bike {
+  /* border:solid blue;
+      background-color:lightgrey; */
+  padding: 1px;
+  /* margin:1em; */
+  width: 90%;
+  height: 280px;
+  margin-top: 60px;
+}
+
+.bikeInfo {
+  text-align: center;
+  margin-top: 40px;
+  font-size: .6em;
+}
+
+
+.bikeBox1 {
+  display: flex;
+  padding-top: 140px;
+  width: 100%;
+  height: 300px;
+
+}
+
+.bikeInfo {
+  /* display: flex; */
+  justify-content: center;
+  margin-top: 5%;
+  font: size 1em;
+  ;
+  height: 30px;
+  width: 100%;
+  /* text-align:center; */
+
+}
+
+.bikeBox2 {
+  display: flex;
+  padding-top: 140px;
+  width: 100%;
+  height: 300px;
+
+}
+
+.circle-red {
+  width: 10px;
+  height: 10px;
+  background-color: #ff0000;
+  border-radius: 50%;
+  align-items: center;
+  display: inline-block;
+  transition: transform .5s;
+}
+
+.circle-black {
+  width: 10px;
+  height: 10px;
+  background-color: #000000;
+  border-radius: 50%;
+  align-items: center;
+  display: inline-block;
+  transition: transform .5s;
+}
+
+.circle-green {
+  width: 10px;
+  height: 10px;
+  background-color: #0b8c0b;
+  border-radius: 50%;
+  align-items: center;
+  display: inline-block;
+  transition: transform .5s;
+}
+
+.circle-orange {
+  width: 10px;
+  height: 10px;
+  background-color: #ff7b00;
+  border-radius: 50%;
+  align-items: center;
+  display: inline-block;
+  transition: transform .5s;
+}
+
+.circle-blue {
+  width: 10px;
+  height: 10px;
+  background-color: #1945d7;
+  border-radius: 50%;
+  align-items: center;
+  display: inline-block;
+  transition: transform .5s;
+}
+
+.circle-white {
+  width: 10px;
+  height: 10px;
+  background-color: #ffffff;
+  border-radius: 50%;
+  align-items: center;
+  display: inline-block;
+  transition: transform .5s;
+}
+
+.circle-purple {
+  width: 10px;
+  height: 10px;
+  background-color: #800080;
+  border-radius: 50%;
+  align-items: center;
+  display: inline-block;
+  transition: transform .5s;
+}
+
+.lastContainer {
+  height: 80vh;
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  padding: 2em;
+  flex-wrap: wrap;
+}
+
+.titleThree {
+  font-size: .6em;
+  margin-top: 30px;
+  margin-left: 40px;
+  position: absolute;
+}
+
+.pic {
+  padding: 1px;
+  /* margin:1em; */
+  height: 300px;
+  width: 300px;
+  margin-top: 60px;
+}
+
+.lastRow {
+  height: 200px;
+  width: 300px;
+  margin: .5em;
+  /* display:flex; */
+}
+
+.actBtn2 {
+  margin-left: 80px;
+  height: 40px;
+  width: 120px;
+
+}
+
+.picInfo {
+  justify-content: center;
+  margin-top: 23%;
+  font-size: .6em;
+  height: 30px;
+  width: 300px;
+  text-align: center;
+
+}
+
+.footerContainer {
+  background-color: rgb(235, 235, 233);
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  height: 300px;
+  padding-left: 3%;
+  padding-right: 3%;
+  padding-top: 3%;
+  margin-top: 8%;
+  font-size: 0.5em;
+}
+
+#firstPart {
+  width: 25%;
+}
+
+#secondPart {
+  width: 25%;
+}
+
+#thirdPart {
+  width: 25%;
+}
+
+#copyR {
+  text-align: center;
+  padding-top: 30%;
+}
+
+input{
+  color: rgba(0,0,0,0.5);
+}
